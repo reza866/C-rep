@@ -1,8 +1,13 @@
 #include <stdio.h>
 int main()
 {
-int x = 2 + 22 ;
-y = 2 * 41 ; 
-z = 5 * 1 ;
-printf("%d\n %d", x,y);
+int x, r , y, z ;
+scanf( "%d", &r);
+
+
+y = 2 * r; 
+x = 2 + 22 ;
+
+
+printf("%d\n %d\n", x,y);
 }
